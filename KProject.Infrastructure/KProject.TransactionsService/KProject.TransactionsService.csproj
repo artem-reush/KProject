@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\KProject.Contract\KProject.TransactionsService.Contract\KProject.TransactionsService.Contract.csproj" />
+    <ProjectReference Include="..\..\KProject.Persistence\KProject.DataAccessLayer\KProject.DataAccessLayer.csproj" />
+  </ItemGroup>
+
+</Project>
